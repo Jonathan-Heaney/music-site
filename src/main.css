@@ -37,3 +37,7 @@ main h2 {
 nav > div {
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}
