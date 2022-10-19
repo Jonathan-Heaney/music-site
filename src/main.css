@@ -5,3 +5,31 @@ body {
   font-family: Raleway, sans-serif;
   color: white;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 1.25rem;
+}
+
+main {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main div {
+  display: flex;
+  gap: 4rem;
+}
+
+main h1 {
+  font-size: 4rem;
+}
+
+main h2 {
+  font-size: 2rem;
+}
