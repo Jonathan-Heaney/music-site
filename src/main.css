@@ -33,3 +33,7 @@ main h1 {
 main h2 {
   font-size: 2rem;
 }
+
+nav > div {
+  cursor: pointer;
+}
