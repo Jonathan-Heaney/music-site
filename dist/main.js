@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createHome\": () => (/* binding */ createHome)\n/* harmony export */ });\n\n\nconst createHome = createHomePage();\n\nfunction createHomePage() {\n  const content = document.getElementById('content');\n  const nav = document.createElement('nav');\n  content.appendChild(nav);\n  const jonathan = document.createElement('div');\n  jonathan.textContent = 'JONATHAN HEANEY';\n  const bio = document.createElement('div');\n  bio.textContent = 'Biography';\n  const media = document.createElement('div');\n  media.textContent = 'Media';\n  const calendar = document.createElement('div');\n  calendar.textContent = 'Calendar';\n  const contact = document.createElement('div');\n  contact.textContent = 'Contact';\n  nav.appendChild(jonathan);\n  nav.appendChild(bio);\n  nav.appendChild(media);\n  nav.appendChild(calendar);\n  nav.appendChild(contact);\n  const main = document.createElement('main');\n  content.appendChild(main);\n  const header = document.createElement('h1');\n  header.textContent = 'JONATHAN HEANEY';\n  main.appendChild(header);\n  const subheader = document.createElement('div');\n  main.appendChild(subheader);\n  const pianist = document.createElement('h2');\n  pianist.textContent = 'Pianist';\n  const coach = document.createElement('h2');\n  coach.textContent = 'Coach';\n  subheader.appendChild(pianist);\n  subheader.appendChild(coach);\n}\n\n\n//# sourceURL=webpack://music-site/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createHome\": () => (/* binding */ createHome)\n/* harmony export */ });\n\n\nconst createHome = createHomePage();\n\nfunction createHomePage() {\n  const content = document.getElementById('content');\n  const main = document.createElement('main');\n  content.appendChild(main);\n  const header = document.createElement('h1');\n  header.textContent = 'JONATHAN HEANEY';\n  main.appendChild(header);\n  const subheader = document.createElement('div');\n  main.appendChild(subheader);\n  const pianist = document.createElement('h2');\n  pianist.textContent = 'Pianist';\n  const coach = document.createElement('h2');\n  coach.textContent = 'Coach';\n  subheader.appendChild(pianist);\n  subheader.appendChild(coach);\n}\n\n\n//# sourceURL=webpack://music-site/./src/home.js?");
 
 /***/ }),
 
@@ -126,7 +126,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.css */ \"./src/main.css\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\n\n\n\nconsole.log('Hello');\n\n_home__WEBPACK_IMPORTED_MODULE_1__.createHome;\n\n\n//# sourceURL=webpack://music-site/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.css */ \"./src/main.css\");\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ \"./src/nav.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\n\n\n\n\nconsole.log('Hello');\n\n_nav__WEBPACK_IMPORTED_MODULE_1__.createNav;\n_home__WEBPACK_IMPORTED_MODULE_2__.createHome;\n\n\n//# sourceURL=webpack://music-site/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/nav.js":
+/*!********************!*\
+  !*** ./src/nav.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNav\": () => (/* binding */ createNav)\n/* harmony export */ });\n\n\nconst createNav = createNavBar();\n\nfunction createNavBar() {\n  const content = document.getElementById('content');\n  const nav = document.createElement('nav');\n  content.appendChild(nav);\n  const jonathan = document.createElement('div');\n  jonathan.textContent = 'JONATHAN HEANEY';\n  const bio = document.createElement('div');\n  bio.textContent = 'Biography';\n  const media = document.createElement('div');\n  media.textContent = 'Media';\n  const calendar = document.createElement('div');\n  calendar.textContent = 'Calendar';\n  const contact = document.createElement('div');\n  contact.textContent = 'Contact';\n  nav.appendChild(jonathan);\n  nav.appendChild(bio);\n  nav.appendChild(media);\n  nav.appendChild(calendar);\n  nav.appendChild(contact);\n}\n\n\n//# sourceURL=webpack://music-site/./src/nav.js?");
 
 /***/ })
 
